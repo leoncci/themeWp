@@ -21,9 +21,9 @@ services:
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_NAME: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_USER: coconut
+      WORDPRESS_DB_NAME: cocoTheme
+      WORDPRESS_DB_PASSWORD: coconut987
 
 volumes:
   db_data: {}
